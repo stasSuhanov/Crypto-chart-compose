@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Crypto chart</string>
+
+    <!-- HOME_SCREEN -->
+    <string name="home_screen_error">CZ leaked all the coin</string>
+    <string name="home_screen_percent_change">%s%%</string>
 </resources>
