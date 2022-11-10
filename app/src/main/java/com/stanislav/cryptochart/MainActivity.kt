@@ -7,6 +7,7 @@ import androidx.compose.material.Surface
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.stanislav.cryptochart.ui.screens.details.DetailsScreen
 import com.stanislav.cryptochart.ui.screens.home.HomeScreen
 import com.stanislav.cryptochart.ui.theme.CryptoChartTheme
 import dagger.hilt.android.AndroidEntryPoint
@@ -21,9 +22,12 @@ class MainActivity : ComponentActivity() {
                 Surface {
                     NavHost(navController, "home") {
                         composable("home") { HomeScreen(navController) }
+                        composable("coinDetails/{$ARG_KEY_COIN_SYMBOL}") { DetailsScreen() }
                     }
                 }
             }
         }
     }
 }
+
+const val ARG_KEY_COIN_SYMBOL = "symbol"

@@ -4,4 +4,15 @@
     <!-- HOME_SCREEN -->
     <string name="home_screen_error">CZ leaked all the coin</string>
     <string name="home_screen_percent_change">%s%%</string>
+    <string name="home_screen_price">%s$</string>
+
+    <!-- DETAILS_SCREEN -->
+    <string name="details_screen_coin_image">coin image</string>
+    <string name="details_screen_description">Description</string>
+    <string name="details_screen_price">Current price: %s$</string>
+    <string name="details_screen_name">Name: %s</string>
+    <string name="details_screen_general_info">General info:</string>
+    <string name="details_screen_rank">Rank: #%s</string>
+    <string name="details_screen_market_cup">Market cup: %s$</string>
+    <string name="details_screen_volume">Volume 24h: %s$</string>
 </resources>

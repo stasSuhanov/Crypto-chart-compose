@@ -93,7 +93,7 @@ fun CoinItemModel(
                 )
             }
             Text(
-                text = model.price.roundTo(2).toString(),
+                text = stringResource(id = R.string.home_screen_price, model.price.roundTo(2).toString()),
                 fontWeight = FontWeight.Bold
             )
             Text(
